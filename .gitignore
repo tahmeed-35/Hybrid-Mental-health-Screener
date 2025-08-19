@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and Models (handle with DVC or Git LFS)
+/data/raw/
+/data/processed/
+/saved_models/
+
+# Results & Logs
+/results/
+*.log

@@ -1,2 +1,6 @@
-# Hybrid-Mental-health-Screener
-An AI-driven framework for early detection of mental health disorders using a hybrid approach that combines adaptive multiple-choice questionnaires with NLP-based analysis of free-text responses. By leveraging transformer models, the system will identify linguistic, semantic, and psychological markers of disorders such as depression and anxiety.
+# AI-Driven Mental Health Screening Framework 🧠
+This repository contains the source code and resources for our study on an AI-driven framework for early detection of mental health disorders.
+## ✨ Key Features
+- **Hybrid Model**: Combines adaptive MCQs and free-text analysis.
+- **Multilingual Support**: Trained and validated on both **English** and **Bengali** datasets.
+- **Transformer-Based**: Leverages state-of-the-art models like **BERT**, **RoBERTa**, and **XLM-R**.

@@ -1,0 +1,23 @@
+# Model Configuration
+model:
+  name: "bert-base-uncased"
+  type: "BERT"
+  max_length: 256
+
+# Training Configuration
+training:
+  language: "english"
+  disorder: "depression"
+  epochs: 5
+  batch_size: 16
+  learning_rate: 2e-5
+
+# Data Paths
+data:
+  train_path: "data/processed/english_train.csv"
+  val_path: "data/processed/english_val.csv"
+
+# Output
+output:
+  model_save_path: "saved_models/bert_english_depression.pt"
+  log_file: "results/logs/training.log"
